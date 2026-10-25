@@ -96,6 +96,8 @@
     <string name="theme">الثيم</string>
     <string name="date_format">تنسيق التاريخ</string>
     <string name="unit_system">نظام الوحدات</string>
+    <string name="unit_km">كم</string>
+    <string name="unit_mi">ميل</string>
     <string name="export_data">تصدير</string>
     <string name="backup_frequency">تكرار النسخ الاحتياطي التلقائي</string>
     <string name="backup_retention_count">عدد النسخ الاحتياطية للاحتفاظ بها</string>

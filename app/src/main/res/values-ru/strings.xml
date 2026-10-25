@@ -91,6 +91,8 @@
     <string name="theme">Тема</string>
     <string name="date_format">Формат даты</string>
     <string name="unit_system">Система измерений</string>
+    <string name="unit_km">км</string>
+    <string name="unit_mi">ми</string>
     <string name="export_data">Экспорт</string>
     <string name="backup_frequency">Частота автоматического резервного копирования</string>
     <string name="backup_retention_count">Количество хранимых резервных копий</string>

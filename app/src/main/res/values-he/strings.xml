@@ -88,6 +88,8 @@
     <string name="theme">עיצוב</string>
     <string name="date_format">תבנית תאריך</string>
     <string name="unit_system">יחידות מדידה</string>
+    <string name="unit_km">ק״מ</string>
+    <string name="unit_mi">מייל</string>
     <string name="export_data">ייצוא</string>
     <string name="backup_frequency">תדירות לגיבוי אוטומטי</string>
     <string name="backup_retention_count">מספר גיבויים לשמירה</string>

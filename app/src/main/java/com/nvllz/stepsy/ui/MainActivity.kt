@@ -500,7 +500,7 @@ internal class MainActivity : AppCompatActivity() {
         mTextViewMeters.text = String.format(
             getString(R.string.distance_today),
             Util.stepsToDistance(totalSteps),
-            Util.distanceUnit()
+            Util.distanceUnit(this)
         )
 
         mTextViewCalories.visibility = View.GONE
@@ -511,7 +511,7 @@ internal class MainActivity : AppCompatActivity() {
             getString(R.string.steps_format),
             avgStepsFormatted,
             Util.stepsToDistance(avgSteps),
-            Util.distanceUnit()
+            Util.distanceUnit(this)
         )
     }
 
@@ -586,7 +586,7 @@ internal class MainActivity : AppCompatActivity() {
         mTextViewMeters.text = String.format(
             getString(R.string.distance_today),
             Util.stepsToDistance(yearSteps),
-            Util.distanceUnit()
+            Util.distanceUnit(this)
         )
 
         mTextViewCalories.visibility = View.GONE
@@ -597,7 +597,7 @@ internal class MainActivity : AppCompatActivity() {
             getString(R.string.steps_format),
             avgStepsFormatted,
             Util.stepsToDistance(avgSteps),
-            Util.distanceUnit()
+            Util.distanceUnit(this)
         )
     }
 
@@ -701,7 +701,7 @@ internal class MainActivity : AppCompatActivity() {
             mTextViewMeters.text = String.format(
                 getString(R.string.distance_today),
                 Util.stepsToDistance(steps),
-                Util.distanceUnit()
+                Util.distanceUnit(this)
             )
             mTextViewSteps.text = stepsPlural
             mTextViewCalories.text = String.format(
@@ -784,7 +784,7 @@ internal class MainActivity : AppCompatActivity() {
                 getString(R.string.steps_day_display),
                 stepsPlural,
                 Util.stepsToDistance(dayEntry.steps),
-                Util.distanceUnit(),
+                Util.distanceUnit(this),
                 Util.stepsToCalories(dayEntry.steps)
             )
         } else {
@@ -792,7 +792,7 @@ internal class MainActivity : AppCompatActivity() {
                 getString(R.string.steps_day_display),
                 resources.getQuantityString(R.plurals.steps_formatted, 0, 0),
                 0.0,
-                Util.distanceUnit(),
+                Util.distanceUnit(this),
                 0
             )
         }
@@ -826,14 +826,14 @@ internal class MainActivity : AppCompatActivity() {
             getString(R.string.steps_format),
             monthStepsFormatted,
             Util.stepsToDistance(monthSteps),
-            Util.distanceUnit()
+            Util.distanceUnit(this)
         )
 
         mTextViewMonthAverage.text = String.format(
             getString(R.string.steps_format),
             avgStepsFormatted,
             Util.stepsToDistance(avgSteps),
-            Util.distanceUnit()
+            Util.distanceUnit(this)
         )
 
         val min: Calendar

@@ -85,6 +85,8 @@
     <string name="theme">Tema</string>
     <string name="date_format">Datumformat</string>
     <string name="unit_system">Enhetssystem</string>
+    <string name="unit_km">km</string>
+    <string name="unit_mi">mi</string>
     <string name="export_data">Exportera</string>
     <string name="backup_frequency">Automatisk säkerhetskopieringsfrekvens</string>
     <string name="backup_retention_count">Antal säkerhetskopior att behålla</string>

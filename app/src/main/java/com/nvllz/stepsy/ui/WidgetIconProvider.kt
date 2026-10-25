@@ -42,7 +42,7 @@ class WidgetIconProvider : AppWidgetProvider() {
             val remoteViews = RemoteViews(context.packageName, R.layout.widget_icon)
 
             val distance = Util.stepsToDistance(steps)
-            val distanceStr = String.format(Locale.getDefault(), "%.2f %s", distance, Util.distanceUnit())
+            val distanceStr = String.format(Locale.getDefault(), "%.2f %s", distance, Util.distanceUnit(context))
 
             remoteViews.setTextViewText(R.id.widget_icon_steps, steps.toString())
             remoteViews.setTextViewText(R.id.widget_icon_distance, distanceStr)

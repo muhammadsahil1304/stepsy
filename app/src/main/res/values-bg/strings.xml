@@ -85,6 +85,8 @@
     <string name="theme">Тема</string>
     <string name="date_format">Форма̀т на дата</string>
     <string name="unit_system">Мерни единици</string>
+    <string name="unit_km">км</string>
+    <string name="unit_mi">ми</string>
     <string name="export_data">Изнасяне</string>
     <string name="backup_frequency">Честота на автом. резервно копие</string>
     <string name="backup_retention_count">Брой на копията</string>

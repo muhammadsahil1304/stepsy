@@ -91,6 +91,8 @@
     <string name="theme">Motyw</string>
     <string name="date_format">Format daty</string>
     <string name="unit_system">System jednostek</string>
+    <string name="unit_km">km</string>
+    <string name="unit_mi">mi</string>
     <string name="export_data">Eksportuj</string>
     <string name="backup_frequency">Częstotliwość automatycznych kopii zapasowych</string>
     <string name="backup_retention_count">Liczba przechowywanych kopii</string>

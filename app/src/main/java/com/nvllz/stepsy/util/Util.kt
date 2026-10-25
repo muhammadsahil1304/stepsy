@@ -1,6 +1,8 @@
 package com.nvllz.stepsy.util
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatDelegate
+import com.nvllz.stepsy.R
 import java.util.*
 
 object Util {
@@ -94,7 +96,12 @@ object Util {
         )
     }
 
-    internal fun distanceUnit(): String = if (AppPreferences.unitSystem == UnitSystem.IMPERIAL) "mi" else "km"
+    internal fun distanceUnit(context: Context): String =
+        if (AppPreferences.unitSystem == UnitSystem.IMPERIAL) {
+            context.getString(R.string.unit_mi)
+        } else {
+            context.getString(R.string.unit_km)
+        }
     internal fun weightUnit(): String   = if (AppPreferences.unitSystem == UnitSystem.IMPERIAL) "lbs" else "kg"
     internal fun heightUnit(): String   = if (AppPreferences.unitSystem == UnitSystem.IMPERIAL) "ft/in" else "cm"
     internal fun stepLengthUnit(): String = if (AppPreferences.unitSystem == UnitSystem.IMPERIAL) "in" else "cm"

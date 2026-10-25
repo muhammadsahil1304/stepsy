@@ -280,11 +280,11 @@ internal class MotionService : Service() {
             .format(Locale.getDefault(), formattedTarget, stepGoalLeft)
 
         val notificationTitleRaw = getString(R.string.steps_format)
-            .format(Locale.getDefault(), stepsPlural, Util.stepsToDistance(mTodaysSteps), distanceUnit())
+            .format(Locale.getDefault(), stepsPlural, Util.stepsToDistance(mTodaysSteps), distanceUnit(this))
 
         val notificationTitleProgress = getString(R.string.notification_step_goal_progress_title)
             .format(Locale.getDefault(), stepsPlural, Util.stepsToDistance(mTodaysSteps),
-                distanceUnit(), stepGoalPercentage)
+                distanceUnit(this), stepGoalPercentage)
 
         val pausePendingIntent = PendingIntent.getService(
             this, 1,

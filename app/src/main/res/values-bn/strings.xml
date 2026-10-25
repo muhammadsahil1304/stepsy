@@ -85,6 +85,8 @@
     <string name="theme">থিম</string>
     <string name="date_format">তারিখের ফরম্যাট</string>
     <string name="unit_system">একক পদ্ধতি</string>
+    <string name="unit_km">কিমি</string>
+    <string name="unit_mi">মাইল</string>
     <string name="export_data">রপ্তানি</string>
     <string name="backup_frequency">স্বয়ংক্রিয় ব্যাকআপের ফ্রিকোয়েন্সি</string>
     <string name="backup_retention_count">রাখার জন্য ব্যাকআপের সংখ্যা</string>

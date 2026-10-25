@@ -82,6 +82,8 @@
     <string name="theme">主题</string>
     <string name="date_format">日期格式</string>
     <string name="unit_system">单位制式</string>
+    <string name="unit_km">km</string>
+    <string name="unit_mi">mi</string>
     <string name="export_data">导出</string>
     <string name="backup_frequency">自动备份频率</string>
     <string name="backup_retention_count">保留的备份数量</string>

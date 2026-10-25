@@ -88,6 +88,8 @@
     <string name="theme">Tema</string>
     <string name="date_format">Formato data</string>
     <string name="unit_system">Sistema di unità</string>
+    <string name="unit_km">km</string>
+    <string name="unit_mi">mi</string>
     <string name="export_data">Esporta</string>
     <string name="backup_frequency">Frequenza del backup automatico</string>
     <string name="backup_retention_count">Numero di backup da conservare</string>

@@ -85,6 +85,8 @@
     <string name="theme">Tema</string>
     <string name="date_format">Tarih biçimi</string>
     <string name="unit_system">Birim sistemi</string>
+    <string name="unit_km">km</string>
+    <string name="unit_mi">mil</string>
     <string name="export_data">Dışa aktar</string>
     <string name="backup_frequency">Otomatik yedekleme sıklığı</string>
     <string name="backup_retention_count">Saklanacak yedek sayısı</string>

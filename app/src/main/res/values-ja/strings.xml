@@ -85,6 +85,8 @@
     <string name="theme">テーマ</string>
     <string name="date_format">日付形式</string>
     <string name="unit_system">単位系</string>
+    <string name="unit_km">km</string>
+    <string name="unit_mi">mi</string>
     <string name="export_data">エクスポート</string>
     <string name="backup_frequency">自動バックアップの頻度</string>
     <string name="backup_retention_count">保持するバックアップ数</string>

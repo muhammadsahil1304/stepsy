@@ -408,7 +408,7 @@ class AchievementsActivity : AppCompatActivity() {
         if (steps >= 10_000) NumberFormat.getIntegerInstance().format(steps) else steps.toString()
 
     private fun formatDistance(steps: Int): String =
-        "%.2f %s".format(Util.stepsToDistance(steps), Util.distanceUnit())
+        "%.2f %s".format(Util.stepsToDistance(steps), Util.distanceUnit(this))
 
     private fun formatStepsWithDistance(steps: Int, divider: String = ""): String =
         "${formatSteps(steps)} $divider ${formatDistance(steps)}"
@@ -481,7 +481,7 @@ class AchievementsActivity : AppCompatActivity() {
         )
 
         val distanceKm = achievement.milestone * AppPreferences.stepLength / 100000f
-        val distanceUnit = Util.distanceUnit()
+        val distanceUnit = Util.distanceUnit(this)
         distanceVal.text = if (AppPreferences.unitSystem == UnitSystem.METRIC) {
             "%.0f $distanceUnit".format(distanceKm)
         } else {
@@ -598,7 +598,7 @@ class MilestonesAdapter(
 
         private fun formatMilestoneTitle(steps: Int): String {
             val distanceKm = steps * AppPreferences.stepLength / 100000f
-            val distanceUnit = Util.distanceUnit()
+            val distanceUnit = Util.distanceUnit(itemView.context)
             val distancePart = if (AppPreferences.unitSystem == UnitSystem.METRIC) {
                 "%.2f $distanceUnit".format(distanceKm)
             } else {
